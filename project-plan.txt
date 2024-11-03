@@ -1,0 +1,8 @@
+-create html structure
+-implement CRUD operations with java API functions
+-create and implement basic styling with CSS
+-add blog posts
+-debug with live page
+-final push to master on github
+-final debugging
+-website is live!
