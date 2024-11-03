@@ -1,1 +1,1 @@
-# dynamic-blog-website
+In this assignment, I will be creating a dynamic blog website which will feature Javascript local storage, and a responsive design capable of interaction and functionality from different browsers as well as mobile devices.
