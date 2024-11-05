@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+   
+    size: 30px;
+    color:rgba(180, 99, 255, 0.548);
+    
+
+}
+p {
+    text-align: center;
+    size: 15px;
+    color:rgb(1, 128, 255);
+}
+
+
+button {
+    background-color: rgb(139, 0, 139);
+    font-size: 20px;
+    color: rgb(255, 250, 226);
+    size: 15px;
+    margin:auto;
+
+ }
+ button:hover {
+    background-color: rgb(255, 0, 191);
+    cursor: crosshair;
+
+ }
+ textarea {
+    width: 400px;
+  height: 250px;
+ }
+
+ table {
+    margin: auto;
+    width: 700px;
+    padding: 20px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+ }
