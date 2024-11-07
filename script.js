@@ -2,7 +2,8 @@ let title = document.getElementById('title');
 let blogPost = document.getElementById('blogpost');
 let photoLink = document.getElementById('photo');
 let save = document.getElementById('save-btn');
-let edit = document.getElementById('edit-btn');       //declaring input fields as variables
+let edit = document.getElementById('edit-btn');
+let clear = document.getElementById('clear-btn');      //declaring input fields as variables
 
 
 
@@ -32,6 +33,12 @@ edit.addEventListener("click", function (event) {
         localStorage.getItem('title', titleInput);
         localStorage.getItem('blog-post', blogInput);
     }
+});
+
+clear.addEventListener("click", function (event) {
+    event.preventDefault();
+    localStorage.clear(); 
+    displayData();
 });
 
 
