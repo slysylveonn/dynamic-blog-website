@@ -13,7 +13,17 @@ h1 {
     
 
 }
-p {
+.display-title {
+    size: 30px;
+    color:rgba(180, 99, 255, 0.548);
+}
+
+.display-blog {
+    size: 20px;
+    color:black;
+}
+
+div {
     text-align: center;
     size: 15px;
     color:rgb(1, 128, 255);
